@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { FaTrashAlt } from "react-icons/fa";
+import { FaTrashAlt, FaHome, FaUser} from "react-icons/fa";
+
+// import { FaHouse } from "react-icons/fa";
 
 const Content = () => {
     const [movies, setMovies] = useState([
@@ -40,8 +42,12 @@ const Content = () => {
   
     return (
       <main>
+
+        <div className="hero"></div>
+
+        {/* move-section */}
         <div className="move-section">
-        <h2>The Movie Lists</h2>
+        <h2>  <FaHome /> The Movie Lists</h2> 
         {movies.length ? (
           <ul>
            
