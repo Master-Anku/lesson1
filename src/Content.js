@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaTrashAlt, FaHome, FaUser} from "react-icons/fa";
 
+
 // import { FaHouse } from "react-icons/fa";
 
 const Content = () => {
@@ -72,6 +73,27 @@ const Content = () => {
           <p>There are no movies to watch</p>
         )}
         </div>
+
+
+        {/* Yangon-section */}
+         <div className="ygn-section">
+          <h2 id="yangon">We Love Yangon</h2>
+          <div className="card">
+            <div className="card-one">
+                <h3>Yangon is very Beautiful</h3>
+            </div>
+          </div>
+         </div>
+        {/* mdn */}
+         <div className="ygn-section">
+          <h2 id="mdy">We Love Mandalay</h2>
+          <div className="card">
+            <div className="card-one">
+                <h3>Mandalay is very Beautiful</h3>
+            </div>
+          </div>
+         </div>
+      
       </main>
     );
   };
