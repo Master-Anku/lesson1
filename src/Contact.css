@@ -81,11 +81,11 @@
 }
 
 .contact-form .success-message {
-  color: #2ecc71;
+  color: #e40f0f;
 }
 
 .contact-form .error-message {
-  color: #e74c3c;
+  color: #e40f0f;
 }
 
 @media (max-width: 768px) {
