@@ -34,7 +34,7 @@ const Contact = () => {
         (response) => {
           console.log('Email sent successfully:', response);
           setSuccessMessage('Your message has been sent successfully!');
-          setFormData({ name: '',  message: '' });
+          setFormData({ name: '', email: '', message: '' });
         },
         (error) => {
           console.error('Failed to send email:', error);
@@ -58,7 +58,7 @@ const Contact = () => {
             required
           />
         </div>
-        {/* <div>
+        <div>
           <label htmlFor="email">Email</label>
           <input
             type="email"
@@ -68,7 +68,7 @@ const Contact = () => {
             onChange={handleChange}
             required
           />
-        </div> */}
+        </div>
         <div>
           <label htmlFor="message">Message</label>
           <textarea
