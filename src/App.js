@@ -2,10 +2,11 @@
 // import './App.css';
 import React from 'react';
 import Header from './Header';
-// import Content from './Content';
+import Content from './Content';
 import Footer from './Footer';
 import Contact from './Contact';
-
+import Photo from './Photo';
+import PhotoCard from './PhotoCard';
 
 
 function App() {
@@ -13,7 +14,10 @@ function App() {
     <div className="App">
       <Header/> 
       
-      {/* <Content/> */}
+     
+      <Content/>
+      <Photo/>
+      <PhotoCard/>
       <Contact/>
 
       <Footer/>
